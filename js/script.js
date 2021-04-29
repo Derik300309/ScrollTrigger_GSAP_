@@ -5,5 +5,5 @@ let tl = gsap.timeline({
         scrub: 1
     }
 });
-tl.from('img', { x: 100, opacity: 0.5, duration: 1.5 })
-    .from('.content', { y: 200, opacity: 0 }, "-=1.5");
+tl.from('img', { x: 100, opacity: 0.5, duration: 1 })
+    .from('.content', { y: 200, opacity: 0 }, "-=1");
